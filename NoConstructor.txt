@@ -1,0 +1,1 @@
+If you don't create a constructor in a class, compiler will generate a default constructor.
