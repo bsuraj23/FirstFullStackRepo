@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var regName = /^[a-zA-Z]+$/;
+  var fName = document.forms["fnForm"]["fname"].value;
+  var lName = document.forms["fnForm"]["lname"].value;
+  if (!regName.test(fName)) {
+    alert("First Name must be filled out");
+    
+  } else if(!regName.test(lName)) {
+  alert("last Name must be filled out");
+    }
+}
+</script>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form name="fnForm" autocomplete="on">
+<label>First Name : </label> <br>
+<input type="text" name="fname"> <br>
+<label>Last Name : </label> <br>
+<input type="text" name="lname"> <br> <br>
+<button onclick="validateForm()">Submit</button>
+
+</form>
+
+
+</body>
+</html>
