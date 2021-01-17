@@ -1,0 +1,27 @@
+package com.package1;
+
+public class ExConst {
+	int id;  
+    String name; 
+    ExConst(){
+    	System.out.println("In default construtor");
+    }
+    ExConst(int i,String n){  
+    id = i;  
+    name = n;  
+    }  
+    ExConst(ExConst obj){
+    	id=obj.id;
+    	name=obj.name;
+    }  
+    
+   
+    public static void main(String args[]){ 
+    	ExConst s = new ExConst();
+    	ExConst s1 = new ExConst(1,"Swetha");  
+    	ExConst s2 = new ExConst(s1);  
+    System.out.println("the value of id for s object is "+s.id);  
+    System.out.println("name of 1st object s1 is "+s1.name); 
+    System.out.println("name of 2nd object s2 is "+s2.name);
+   }  
+}

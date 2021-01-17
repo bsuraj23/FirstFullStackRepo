@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  var x = document.forms.myForm.fname.value;
+  var y = document.forms.myForm.lname.value;
+    if (x == "") {
+    alert("First Name must be filled out");
+    return false;
+  }
+  if (y == "") {
+    alert("Last Name must be filled out");
+    return false;
+  }
+ return true;
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action ="C:\Users\sweth\Desktop\welcome.html" method="post" onsubmit="return validateForm()">
+  FirstName: <input type="text" name="fname"><br/><br/>
+  LastName: <input type="text" name="lname"><br/><br/>
+  <input type="submit" value="Submit">  
+</form>
+
+</body>
+</html>

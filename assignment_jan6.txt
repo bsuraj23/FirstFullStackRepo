@@ -1,0 +1,27 @@
+Access specifiers and their visibility
+
+Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Default values for datatypes in java
+
+Data Type	Default Value	Default size
+boolean	             false	1 bit
+
+char	          '\u0000'	2 byte
+
+byte	               0	1 byte
+
+short	               0	2 byte
+
+int	               0	4 byte
+
+long	              0L	8 byte
+
+float	            0.0f	4 byte
+
+double	            0.0d	8 byte
