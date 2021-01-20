@@ -1,0 +1,209 @@
+-- >what is the difference between a platform and a programming language ?
+
+A Platform is a environment where a piece of software is executed.It typically  refers to a computer's operating system. 
+
+A programming language define a syntax for how to write a program's logic.
+============================================================================================================================================================
+-->What is the difference between query language and database ?
+
+Query language is used to operate the database,It  is used in the accessing, updating, and manipulation of data in a database. Its design allows for the management of data in database.
+Query language is used for controlling data access and for creation and modification of Database schemas.
+
+A database is an organized collection of structured information, or data, typically stored electronically in a computer system. 
+A database is usually controlled by a database management system (DBMS). 
+Data within the most common types of databases is stored in rows and columns in a series of tables to make processing and data querying efficient. 
+The data can then be easily accessed, managed, modified, updated, controlled, and organized. 
+Most databases use structured query language (SQL) for writing and querying data.
+
+======================================================================================================================================================================
+Understand the diffrence betweeen RDBMS,NOSQL .
+A relational database is a type of database. It uses a structure that allows us to identify and access data in relation to another piece of data in the database. 
+Date is stored in the form of rows and colums in the form of a table.Data is present in multiple tables which can be related to each other.
+
+NoSQL Database stands for a non-SQL database. 
+NoSQL database doesn’t use table to store the data like relational database. 
+It is used for storing and fetching the data in database and generally used to store the large amount of data.
+It supports query language and provides better performance.
+====================================================================================================================================================================
+what are libraries in programming language ?
+A library provides a set of helper functions/objects/modules which your application code calls for specific functionality.
+It is a collection of class definitions.We can use the methods difined in the libraries in our code .eg:predefined methods which we can call in our code .
+====================================================================================================================================================================
+what is a framework ?
+A framework is built on top of a programming language
+A Framework consists of defined open or unimplemented functions or objects which the developer uses to create a custom application.The framework provides a generic functionality 
+and user can add extra code it based on his requirement. Framework defines a  skeleton where the application defines its own features to fill out the skeleton.
+
+React and Angular are front-end web frameworks built on top of the Javascript programming language.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-->what are the various front end technologies ?
+
+A set of technologies that are used in developing the user interface of web applications and webpages.
+
+With the help of front-end technologies, developers create the design, structure, animation, and everything that you see on the screen while opening up a website,
+ web application, or mobile app.
+Advantges of frontend technologies:
+Reusable templates and elements
+Provide task automation
+Offer code optimization and debugging
+Enhances developers’ productivity
+Ease the development process for developers
+
+eg:vue.js,react,angular,bootstrap
+=====================================================================================================================================================================
+-->What is the difference between Angular,react and vue ?
+
+Angular is a framework developed by Google:  It will be maintained and continuously improved.Angular projects use TypeScript, which is a superset to JavaScript.
+TypeScript doesn’t run in the browser but Angular projects include tools that will compile the TypeScript code down to browser-compatible JavaScript code under the hood.
+
+React is a library built by Facebook: Facebook also uses React internally, It will be maintained and continuously improved.
+React typically uses JavaScript  and it uses a special JavaScript “feature” which is called “JSX”.
+
+Vue is a “standalone” project that is not built inside of any company.It has a dedicated team of core contributors that work on Vue.Vue uses regular JavaScript .
+================================================================================================================================================================
+Difference between xml and json ?
+XML stands for eXtensible Markup Language
+XML is a software- and hardware-independent tool for storing and transporting data.
+XML tags are not predefined .
+In many HTML applications, XML is used to store or transport data, while HTML is used to format and display the same data.
+With a few lines of JavaScript code, you can read an XML file and update the data content of any HTML page.
+
+JSON:
+JSON stands for JavaScript Object Notation.
+
+JSON is a syntax for storing and exchanging data.
+
+JSON is text, written with JavaScript object notation.
+
+JSON stores JavaScript objects as text.
+
+Differences:
+JSON doesn't use end tag.
+JSON is shorter.
+JSON is quicker to read and write.
+JSON can use arrays.
+XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function into a ready-to-use JavaScript object.Because of this reason JSON is better than XML.
+==================================================================================================================================================================
+what is DNS ?what will happen when you hit a website ?
+DNS stands for “Domain Name System”.
+It’s a system that lets you connect to websites by matching human-readable domain names with the unique ID of the server where a website is stored.
+It lists domain names with their corresponding identifiers called IP addresses.
+When a user enters a domain name on their device, it looks up the IP address and connects them to the physical location where that website is stored.
+
+
+The internet is a giant network of computers. Each device connected to the internet is assigned a unique IP address which helps other computers identify it.
+But these number are difficult to remember and dont describe anything about the webiste .so names are assigned to each website corresponding to each ip address.These are called domain names.
+These are easy to remember and helps in easy search of the website.The owner of the webiste can select any unique name for their website.
+DNS or Domain Name System basically translates those domain names into IP addresses and points your device in the right direction.
+A domain name and its matching IP address is called a “DNS record”.
+
+A name server, sometimes spelled “nameserver”, is a special type of server that keeps all the DNS records of your domain name. 
+Its job is to provide your DNS information to anyone requesting it.Each nameserver has its own address and can store the records of many websites.
+
+Each domain name must have at least two nameservers. The first nameserver is the primary server. If the primary server does not respond, then the secondary nameserver is used to resolve the domain name.
+
+Steps that take place when you hit a website 
+
+1. You open your browser and type a website in the address bar and hit Enter on the keyboard. Immediately there is a quick check to see if you have visited our website previously.
+
+If the DNS records are found in your computer’s DNS cache, then the rest of the DNS lookup is skipped and you will be taken directly to requested website.
+
+2. If no DNS records are found, then a query is sent to your local DNS server. Typically this is your Internet provider’s server and is often called a “resolving nameserver”.
+
+3. If the records are not cached on the resolving nameserver, then the request is forwarded to what’s called a “root nameserver” to locate the DNS records. Root nameservers are designated servers around the world that are responsible for storing DNS data and keeping the system working smoothly. Once the DNS record is found on the root nameserver, it’s cached by your computer.
+
+4. Now that the DNS records are located, a connection to the server where the website is stored will be opened and will be displayed on your screen.
+
+========================================================================================================================================================================
+what is a Server ?
+The internet is possible because of a network of computers called servers.
+ A server is a type of computer that’s dedicated to storing and delivering websites to other computers around the world.
+
+How to register with DNS ?
+
+The first step towards building a website is to find a good domain name and register .
+A domain name registrar is a company that allows you to purchase and register domain names. 
+All domain name registrars are accreditated by ICANN (Internet Corporation for Assigned Names and Numbers), a non-profit organization responsible for managing domain names.
+
+Domain names make the internet easy to use for everyone. Without domain names, you’ll have to enter long strings of numbers called IP addresses to visit websites.
+
+Domain names solve this problem by allowing websites to choose addresses using easy to remember words, for example, wpbeginner.com or google.com.
+
+A domain name is the address of your website that people type in the browser to visit your website. For example, wpbeginner.com.
+
+In simple term, if your website was a house, then your domain name will be its address.
+
+You can register a domain name from any of the top domain registrars that are authorized by ICANN to register domain names.
+
+Since there are so many different registrars,you can choose the one that best fits your need.
+
+====================================================================================================================================================================
+what is the differnce between .com and .in ?
+
+The top-level domain (TLD), sometimes called the internet domain extension, is the very last section of an internet domain name, located after the last dot, to help form a fully qualified domain name ( FQDN).
+
+The “com” in the .com domain name indicates a “commercial” site. This can cover business websites, websites that want to make money online, personal websites, blogs, portfolios, and more.
+
+
+.in (India) – It is a Country Code Top Level Domain. If you see .in at the end of any website then you can say that it is an Indian website.
+=======================================================================================================================================================
+What is a browser are what are its features ?
+
+A web browser is an application used to access and view websites. Most commonly used web browsers are Microsoft Internet Explorer, Google Chrome, Mozilla Firefox, and Apple Safari.
+
+The primary function of a web browser is to render HTML, the code used to design or "mark up" webpages.
+Each time a browser loads a web page, it processes the HTML, which may include text, links, and references to images and other items, such as cascading style sheets and JavaScript functions. 
+The browser processes these items, then renders them in the browser window.
+
+Today's browsers support multiple types of HTML (such as XHTML and HTML 5), dynamic JavaScript, and encryption used by secure websites.
+The capabilities of modern web browsers allow web developers to create highly interactive websites. 
+For example, Ajax enables a browser to dynamically update information on a webpage without the need to reload the page. 
+Advances in CSS allow browsers to display a responsive website layouts and a wide array of visual effects.
+Cookies allow browsers to remember your settings for specific websites.
+The main difference between web browsers is a thing called a layout engine.
+
+When you go to a webpage in a browser, the webpage gives your browser a set of ‘instructions’ (html, css, javascript, &c.) that tell the browser how the page should look & act when you interact with it. 
+The browser interprets these instructions using its layout engine. Chrome & Safari use a layout engine called webkit (& Opera is moving to it too), Firefox’s is called Gecko, IE’s is called Trident.
+
+Over time, new versions of these instructions (html5, css3…) come out with new stuff in them, so the layout engine needs to be updated so the browser can understand the new instructions.
+Microsoft has historically been very slow compared to the other browsers in implementing some of the newest changes to their layout engine.
+=================================================================================================================================================================
+How can you find out what front end,backend technologies and database  used the development of a website ?
+WhatRuns is a free chrome browser extension that reveals the technologies used on a website. 
+we can also find it using other online tools like
+Wappalyzer
+BuiltWith
+Netcraft Site Report --oldest tool
+============================================================================================================================
+what is MERN,MEAN ans LAMP ?
+What is the MERN Stack?
+
+MERN Stack: MERN Stack is a Javascript Stack that is used for easier and faster deployment of full-stack web applications. MERN Stack comprises of 4 technologies namely: MongoDB, Express, React and Node.js. It is designed to make the development process smoother and easier.
+MERN stands for MongoDB, Express, React, Node, after the four key technologies that make up the stack.
+
+MongoDB - document database
+Express(.js) - Node.js web framework
+React(.js) - a client-side JavaScript framework
+Node(.js) - the premier JavaScript web server
+The MERN architecture allows you to easily construct a 3-tier architecture (frontend, backend, database) entirely using JavaScript and JSON.
+
+Web(frontend) --React JS
+
+server -- Express js and node JS
+
+Database --Mongo DB
+
+MEAN Stack is one of the most popular Technology Stack. It is used to develop a Full Stack Web Application. 
+Although it is a Stack of different technologies, all of these are based on JavaScript language.
+
+MEAN Stands for:
+
+M – MongoDB
+E – Express
+A – Angular
+N – Node.js
+This stack leads to faster development as well as the deployment of the Web Application.
+ Angular is Frontend Development Framework 
+Node.js, Express, and MongoDB are used for Backend development
+
+LAMP stands for Linux, Apache, MySQL, and PHP. Together, they provide a proven set of software for delivering high-performance web applications. Each component contributes essential capabilities to the stack
