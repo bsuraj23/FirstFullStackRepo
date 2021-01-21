@@ -1,0 +1,12 @@
+package com.example.com.example.ifelse;
+
+public class NestedIf {
+    public static void main(String[] args) {
+        int a = 75;
+        if(a>65){
+            System.out.println("A is greater than 100");
+        }if (a<65){
+            System.out.println("A is lesser than 100");
+        }
+    }
+}

@@ -1,0 +1,22 @@
+package Package1;
+import java.lang.*;
+import java.util.*;
+
+class ArrayList1<S> {
+    public static void main(String[] args) {
+        ArrayList<String> languages = new ArrayList<>();
+        languages.add("Java");
+        languages.add("Python");
+        System.out.println(languages);
+    }
+
+    public void add(String java) {
+        String languages = "JAVA";
+        String languages1 = "Python";
+        System.out.println("ArrayList: " + languages);
+
+        System.out.println("ArrayList: " + languages1);
+
+      
+    }
+}

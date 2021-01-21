@@ -1,0 +1,16 @@
+package Package1;
+import java.util.*;
+public class Collection3 {
+    public static void main(String[] args) {
+        HashSet<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(3);
+        set.add(7);
+
+        Iterator<Integer> itr = set.iterator();
+
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
+    }
+}

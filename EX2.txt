@@ -1,0 +1,27 @@
+package Package1;
+
+public class EX2 {
+    double id;
+    char s;
+     EX2(){
+       System.out.println("In default constructor");
+    }
+    EX2(double id, char s){
+      id = 2.3;
+      char s1 = s;
+        System.out.println("I am id and char constructor");
+
+    }
+    EX2(EX2 obj){
+         id = obj.id;
+
+    }
+    public static void main(String[] args) {
+        EX2 s = new EX2();
+        EX2 s1 = new EX2(2.3,'k');
+        EX2 s2 = new EX2(s1);
+        System.out.println("the value of id for s object is "+s.id);
+        System.out.println("the value of id for s object is "+s1.id+""+s1.s);
+
+    }
+}
