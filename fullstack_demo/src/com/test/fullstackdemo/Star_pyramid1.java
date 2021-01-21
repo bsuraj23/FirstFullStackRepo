@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Star_pyramid1 {
 	
-	public static void printTriangle(int n)
+	public static void printPyramid(int n)
 	{
 		// k= number of spaces
 		int k = 2*n - 2, i, j;
@@ -42,7 +42,7 @@ public class Star_pyramid1 {
 		int n = 5; //number of rows
               
 		//call function to print triangle
-		printTriangle(n);
+		printPyramid(n);
 		
 	}
 }

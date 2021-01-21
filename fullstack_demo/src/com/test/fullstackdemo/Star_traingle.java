@@ -3,7 +3,7 @@ package com.test.fullstackdemo;
 public class Star_traingle {
 	
 	
-	    public static void rightTriangle(int n) 
+	    public static void leftTriangle(int n) 
 	    { 
 	    	int i, j; 
 	    	  
@@ -24,7 +24,7 @@ public class Star_traingle {
 	            System.out.println(); 
 	        } 
 	   } 
-	        public static void leftTriangle(int n) 
+	        public static void rightTriangle(int n) 
 	        { 
 	            int i, j;  
 	            for(i=0; i<n; i++) //outer loop for number of rows(n)
@@ -44,8 +44,8 @@ public class Star_traingle {
 	        public static void main(String args[])
 	        {
 	        	int n=6;
-	        	rightTriangle(n);
 	        	leftTriangle(n);
+	        	rightTriangle(n);
 	        	
 	       }
 				
