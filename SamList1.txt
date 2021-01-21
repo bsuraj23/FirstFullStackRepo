@@ -1,0 +1,28 @@
+package Package1;
+import java.util.*;
+import java.lang.*;
+public class SamList1 {
+    public static void main(String[] args) {
+        ArrayList<Character> character = new ArrayList<>();
+        character.add('S');
+        character.add('a');
+        character.add('h');
+        character.add('i');
+        character.add('t');
+        character.add('h');
+        character.add('i');
+      System.out.println(character);
+    }
+    public void add(Character java){
+        Character character = 'S';
+        Character character1 = 'a';
+        Character character2 = 'h';
+        Character character3 = 'i';
+        Character character4 = 't';
+        Character character5 = 'h';
+        Character character6 = 'i';
+
+        System.out.println("ArrayList "+character+""+character1+""+character2+""+character3+""+character4+""+character5+""+character6);
+
+    }
+}

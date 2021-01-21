@@ -1,0 +1,21 @@
+package Package1;
+ import java.util.*;
+ import java.lang.*;
+class SampleList1 {
+    public static void main(String[] args) {
+        ArrayList<Integer> numerics = new ArrayList<>();
+        numerics.add(1);
+        numerics.add(2);
+        numerics.add(3);
+        System.out.println(numerics);
+    }
+    public void add(Integer java){
+        Integer numerics = 1;
+        Integer numerics1 = 2;
+        Integer numerics2 = 3;
+        System.out.println("ArrayList "+numerics);
+        System.out.println("ArrayList "+numerics1);
+        System.out.println("ArrayList "+numerics2);
+
+    }
+}
