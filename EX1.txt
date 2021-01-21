@@ -1,0 +1,28 @@
+package Package1;
+
+public class EX1 {
+    int id;
+    String name;
+    EX1(){
+        System.out.println("In default constructor");
+    }
+    EX1(int i, String n){
+        id = i;
+        name = n;
+        System.out.println("I am string constructor");
+    }
+    EX1(EX1 obj){
+        id = obj.id;
+        name =  obj.name;
+        System.out.println("I am object constructor");
+    }
+
+    public static void main(String[] args) {
+        EX1 s = new EX1();
+        EX1 s1 = new EX1(1,"Karthik");
+        EX1 s2 = new EX1(s1);
+        System.out.println("the value of id for s object is "+s.id);
+        System.out.println("name of 1st object s1 is "+s1.name);
+        System.out.println("name of 2nd object s2 is "+s2.name);
+    }
+}

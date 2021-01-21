@@ -1,0 +1,22 @@
+package Package1;
+import java.util.*;
+import java.lang.*;
+
+ class LinkedList1 {
+    public static void main(String[] args) {
+        LinkedList<String> languages = new LinkedList<>();
+        languages.add("Java");
+        languages.add("Javascript");
+        languages.add("Python");
+        languages.add("SQL");
+        System.out.println(languages);
+    }
+    public void add(String java){
+        String languages = "Java";
+        String languages1 ="JavaScript";
+        String languages2 = "Python";
+        String languages3 = "SQL";
+
+        System.out.println("LinkedList "+languages+""+languages1+""+languages2+"");
+    }
+}

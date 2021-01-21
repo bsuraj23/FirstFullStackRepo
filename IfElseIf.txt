@@ -1,0 +1,17 @@
+package com.example.com.example.ifelse;
+
+public class IfElseIf {
+    public static void main(String[] args) {
+        int number = 1234;
+        if(number<100 && number>1){
+            System.out.println("Number is two digit number");
+        }
+        else if(number >100 && number <1000){
+            System.out.println("Number is three digit number");
+        }else if(number>1000 && number<10000){
+            System.out.println("Number is four digit number");
+        }else{
+            System.out.println("Number is out of range");
+        }
+    }
+}
