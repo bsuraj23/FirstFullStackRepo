@@ -1,0 +1,34 @@
+package com.package1;
+
+public class ExString {
+
+	public static void main(String[] args) {
+		String s1 ="swetha";
+		String s2=new String("hello");
+		char[] s3= {'w','e','l','c','o','m','e'};
+		String s4= new String(s3);
+		String s5="swetha";
+		String s6= new String("swetha");
+		//string concatenating
+		System.out.println(s2+" "+s1+" , "+s4);
+		//length
+		int i =s1.length();
+		System.out.println("length of s1 "+i);
+		//String comparison using equals method --compares the value in string
+	    System.out.println(s1.equals(s5));//prints true
+	    System.out.println(s1.equals(s6));//prints true
+	    
+	    //String comparison using == --compares the reference variable is pointing to same object
+		System.out.println(s1==s5);//prints true
+		System.out.println(s1==s6);//prints false
+		//printing string in reverse order
+		for(int j=s1.length()-1;j>=0;j--)
+		{
+			char c=s1.charAt(j);
+			System.out.print(c);
+		}
+		
+		 
+	}
+
+}
