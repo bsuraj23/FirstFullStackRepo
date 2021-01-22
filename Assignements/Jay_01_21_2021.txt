@@ -1,0 +1,49 @@
+Missed class
+1.With out using web browser how can you access the inernet?
+	Go to disk MAnagement or in work pad
+	go to "help" and "help topics"
+	right click on the top and select 
+	"Jump to URL"
+
+2.whhat is open source & closed sorce, GUI and non GUI os
+
+	https://api2cart.com/business/5-differences-between-open-source-and-closed-source-software/#:~:text=Open%20source%20software%20(OSS)%20refers,freely%20available%20on%20the%20Internet.&text=Closed%20source%20software%20(CSS)%20is,copy%2C%20and%20alter%20that%20software.
+
+		Open source software (OSS) refers to the software which uses the code freely available on the Internet.  The code can be copied, modified or deleted by other users and organizations. As the software is open to the public, the result is that it constantly updates, improves and expands as more people can work on its improvement.
+
+		Closed source software (CSS) is opposite to OSS and means the software which uses the proprietary and closely guarded code. Only the original authors of software can access, copy, and alter that software. In a case with closed source software, you are not purchasing the software, but only pay to use it.
+
+	https://www.geeksforgeeks.org/difference-between-cli-and-gui/
+	CLI is that the word form used for Command Line Interface. CLI permits users to put in writing commands associate degree exceedingly in terminal or console window to interact with an operating system. CLI is a platform or medium wherever users answer a visible prompt by writing a command and get the response from system, for this users have to be compelled to kind command or train of command for performing the task. CLI is suitable for the pricey computing wherever input exactitude is that the priority.
+
+	GUI stands for Graphical User Interface. GUI permits users to use the graphics to interact with an operating system. In graphical user interface, menus are provided such as : windows, scrollbars, buttons, wizards, painting pictures, alternative icons etc. It’s intuitive, simple to find out and reduces psychological feature load. In GUI, the information is shown or presented to the user in any form such as: plain text, videos, images, etc.
+
+3.Flavors of unix & difference between them
+	https://www.eukhost.com/blog/webhosting/linux-flavors/ 
+	Definition of Flavors: Unix is not a single operating system. It is in fact a general name given to dozens of o.s. by different companies, organizations or groups of individuals. These variants of unix are referred to as flavors. Although based on the same core set of unix commands, different flavors can have their own unique commands and features, and are designed to work with different types of h/w. Linux is often considered a unix flavor. See a list of unix flavors:
+	1. AIX : AIX is commercial version of unix product IBM.
+	2. BSD : Berkeley Software Distribution.
+
+	3. Caldera : The Caldera Open UNIX 8 deployment platform uses Linux Kernel Personality (LKP)
+
+	4. FreeBSD : FreeBSD makes a great internet server Or firewall, and recent advancements make freeBSD powerful multimedia editing workstation.
+
+	5. HP-UX : HP-UX was the first Unix to use access control lists for file access permissions.
+
+	6. Solaris : Solaris is the unix flavor produced by sun Microsystems.
+
+	7. Linux : Linux has generated more excitement in the computer field than any other development.
+
+	Linux flavors : Red-hat, Fedora, SUSE, Slackware, Gentoo, Debian, mandrake.
+
+4.All the commands from the command prompt of Windows
+https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows
+
+5.File commands of Unix
+https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html
+
+6.How to open text file or doc file in windows
+c:> file1.txt
+
+7.How can you print the system variables in command prompt
+command "set"
