@@ -1,0 +1,89 @@
+Open source and closed source operating system:
+A operating system is a software that provide interface between the user and the hardware. The computer cannot perform any task without operating system. The operating system control and manage the operation of computer hardware.
+Closed-source operating systems use code that is proprietary and kept secret to prevent its use by other entities. Traditionally, they are sold for a profit.
+Open-source operating systems use code that is freely-distributed and available to anyone to use, even for commercial purposes.
+Examples of computer open-source operating systems include Linux, FreeBSD and OpenSolaris. 
+Closed-source operating systems include Microsoft Windows, Solaris Unix and OS X(MAC).
+
+GuI and Non GUI OS ?
+
+GUI stands for Graphical User Interface. This type of operating system provide graphical interface to the user to work on it easily. This type of operating system is gives friendly environment. The user can work on it by clicking the icons and open the file etc without write any command. 
+Ex:Microsoft Windows and Mac OS,Chrome OS,Linux variants like Ubuntu using a GUI interface.
+
+Non GUI:In this type of operating system the user can type commands to the open file, delete file and any other work.
+ This type of operating system is difficult to used by any normal computer user. Ex:Unix ,Linux
+===========================================================================================================================================
+How to access internet without browser ?
+
+we can access any website by using commandline interface.
+Lynx is a command line tool for Linux devices.install Lynx and enter any website to access it.There is no support for Adobe Flash or JavaScript.
+
+Using Telnet we can browse the web. It's possible to access Google using a command line.
+ Windows users will first need to enable Telnet. Do this by clicking Start and entering control.Navigate to Programs > Turn Windows features on or off and scroll down until you find Telnet Client. Check the box, then OK and wait while the files are installed.
+Using FTP we can download anything from the web without browser.
+Linux and Mac have telnet is enabled by default.
+=====================================================================================================================================================================
+How to print the value of a system variable on commnad prompt for windows ?
+
+echo %variablename%
+
+eg:
+C:\Users\sweth>echo %JAVA_HOME%
+C:\Program Files\Java\jdk-15.0.1
+=======================================================================================================================================
+How to open text file or doc file in windows?
+
+from command line go the folder where the file is present
+give the name of the file to be opened in double quotes
+
+eg:cd C:\training_notes
+C:\training_notes>"javascript.txt"
+
+now it opens the text file named javascript
+============================================================================================================================================
+Flavors of UNIX :
+
+Flavours refers to the many Unix-like operating systems that have been developed based on the original UNIX that was written in 1969 by Ken Thompson at Bell Labs.
+
+Fragmentation of UNIX occurred almost from the beginning. It was the result of both commercial pressures and differences in opinion among developers as to the way in which operating systems should behave.
+
+Among the ways in which the various flavors of UNIX differ are 
+(1) fundamental design, 
+(2) commands and features,
+ (3) the hardware platform(s) (i.e., processors) for which they are intended and 
+(4) whether they are proprietary software (i.e., commercial software) or free software.
+
+Many of the commercial flavors have been designed to run only on proprietary hardware sold by the same company that has developed them. 
+Examples:
+AIX - developed by IBM for use on its mainframe computers
+BSD/OS - a commercial version of BSD developed by Wind River for Intel processors
+HP-UX - developed by Hewlett-Packard for its HP 9000 series of business servers
+IRIX - developed by SGI for applications that use 3-D visualization and virtual reality
+QNX - a real time operating system developed by QNX Software Systems primarily for use in embedded systems
+Solaris - developed by Sun Microsystems for the SPARC platform and the most widely used proprietary flavor for web servers
+Tru64 - developed by Compaq for the Alpha processor
+
+Free unix flavours:
+Linux - the most popular and fastest growing of all the Unix-like operating systems
+FreeBSD - the most popular of the BSD systems (all of which are direct descendants of BSD UNIX, which was developed at the University of California at Berkeley)
+NetBSD - features the ability to run on more than 50 platforms, ranging from acorn26 to x68k
+OpenBSD - may have already attained its goal of becoming the most secure of all computer operating systems
+Darwin - the new version of BSD that serves as the core for the Mac OS X
+=====================================================================================================
+File commands of Unix:
+$ls -- list files
+$ls -l 
+metacharacters * and  ?
+$ ls -a --> lists hidden files
+
+Creating Files: use vi editor:
+$ vi filename
+enter i to add text or edit the file
+Press the key esc to come out of the edit mode.
+Press two keys Shift + ZZ together to come out of the file completely.
+
+$ cat filename--to display the contents inside the file.
+$ wc filename-- to count the words in the file
+$ cp source_file destination_file-- to copy a file
+$ mv old_file new_file--to rename  a file
+$ rm filename--to delete a file
