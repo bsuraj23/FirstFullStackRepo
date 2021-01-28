@@ -1,0 +1,76 @@
+
+1.how can you add authentication and authorization in a web application?
+
+Authentication is the process of verifying the identity of an individual. We use a combination of username and password to authenticate a user. The authentication logic has to be maintained locally so we will term it local authentication. Apart from local authentication, we can use OpenID, Oauth & SAML can also be used as Auth providers.
+
+Local Authentication
+
+The user registers using an identifier like username/email/mobile;
+The application stores user credentials in the database;
+The application sends a verification email/message to validate the registration;
+Post successful registration, the user enters credentials for logging in;
+On successful authentication, the user is allowed access to specific resources;
+The user state is maintained via Sessions or JWT.
+
+OpenID / OAuth
+OpenID is an authentication protocol that allows us to authenticate users without using a local auth system. In such a scenario, a user has to be registered with an OpenID Provider and the same provider should be integrated with our authentication flow. To verify the details, we have to forward the authentication requests to the provider. On successful authentication, we receive a success message and/or profile details with which we can execute the necessary flow.
+
+OAuth is an authorization mechanism that allows our application user access to a provider. On successful response, we receive a token with which we can access certain APIs on behalf of a user. OAuth is convenient in case your business use case requires some certain user-facing APIs like access to Google Drive or sending tweets on your behalf. Most OAuth 2.0 providers can be used for pseudo authentication. Having said that, it can get pretty complicated if you are using multiple OAuth providers to authenticate users on top of the local authentication system.
+
+Authorization
+Authorization is a process with which we can allow or restrict resources. Depending on the business logic, the requirement of user authorization can vary.
+
+
+2. what is IAM?
+
+Identity and access management (IAM) refers to the policies and tools used by IT departments to ensure that people and entities have the appropriate level of access to the organization’s technical resources. IAM systems are technology solutions to securely manage digital identities and their access to various applications and systems.
+
+IAM systems manage people and also other kinds of identities, such as software (apps or programs), and hardware (such as IoT devices).
+
+IAM systems perform two key tasks: Authenticating, Authorizing 
+
+3.what does EC stand for?
+
+embedded controller
+An embedded controller (EC) is a microcontroller in comp
+
+4.how can u send an email(gmail)in a encrypted format?
+
+On your computer, go to Gmail.
+Click Compose.
+In the bottom right of the window, click Turn on confidential mode . Tip: If you've already turned on confidential mode for an email, go to the bottom of the email, then click Edit.
+Set an expiration date and passcode. ...
+Click Save.
+
+5.what is JSON?
+
+JSON, or JavaScript Object Notation, is a minimal, readable format for structuring data. It is used primarily to transmit data between a server and web application, as an alternative to XML. Data is represented in key value pairs.
+
+6. difference between json and xml?
+
+ XML is a markup language (as it actually says in its name), whereas JSON is a way of representing objects (as also noted in its name).
+
+With XML (using a certain element vocabulary) you can put:
+
+<Document>
+    <Paragraph Align="Center">
+        Here <Bold>is</Bold> some text.
+    </Paragraph>
+</Document>
+
+An object notation like JSON is not as flexible. But this is usually a good thing. When you're representing objects, you simply don't need the extra flexibility. To represent the above example in JSON, you'd actually have to solve some problems manually that XML solves for you.
+
+{
+    "Paragraphs": [
+        {
+            "align": "center",
+            "content": [
+                "Here ", {
+                    "style" : "bold",
+                    "content": [ "is" ]
+                },
+                " some text."
+            ]
+        }
+    ]
+}
