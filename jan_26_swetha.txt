@@ -1,0 +1,127 @@
+What is EC2 in AWS ?
+An instance is a virtual server in the AWS cloud.Amazon EC2 (Elastic Compute Cloud) is a web service interface that provides resizable compute capacity in the AWS cloud. It is designed for developers to have complete control over web-scaling and computing resources.EC2 instances can be resized and the number of instances scaled up or down as per our requirement. These instances can be launched in one or more geographical locations or regions, and Availability Zones (AZs). Each region comprises of several AZs at distinct locations, connected by low latency networks in the same region.
+=============================================================================================================================================================
+what is IAM ?
+IAM stands for Identity Access Management.
+IAM allows you to manage users and their level of access to the aws console.
+It is used to set users, permissions and roles. It allows you to grant access to the different parts of the aws platform.
+-----========================================================================================================================================================
+How can you add authentication and authorization to a web application ?
+
+Authentication is about validating your credentials like User Name/User ID and password to verify your identity.
+
+1)Local Authentication:
+The most common authentication technique is using a username and password.
+The common flow while implementing it is:
+
+The user registers using an identifier like username/email/mobile.
+The application stores user credentials in the database.
+The application sends a verification email/message to validate the registration.
+Post successful registration, the user enters credentials for logging in.
+On successful authentication, the user is allowed access to specific resources.
+
+2)OpenID / OAuth
+3)Multi Factor Authentication
+
+Authorization is the process to determine whether the authenticated user has access to the particular resources. It verifies your rights to grant you access to resources such as information, databases, files, etc. Authorization usually comes after authentication which confirms your privileges to perform.We need to implement code for authorization based on the roles.
+==================================================================================================================================
+What is JSON ?
+JSON is a syntax for storing and exchanging data.When exchanging data between a browser and a server, the data can only be text.
+
+JSON is text, and we can convert any JavaScript object into JSON, and send JSON to the server.
+
+We can also convert any JSON received from the server into JavaScript objects.
+
+This way we can work with the data as JavaScript objects, with no complicated parsing and translations.
+JSON stands for JavaScript Object Notation.
+JSON is lightweight data-interchange format.
+JSON is easy to read and write than XML.
+JSON is language independent.
+JSON supports array, object, string, number and values.
+The JSON file must be save with .json extension.
+
+A JSON object contains data in the form of key/value pair. The keys are strings and the values are the JSON types. Keys and values are separated by colon. Each entry (key/value pair) is separated by comma.
+The { (curly brace) represents the JSON object.
+{  
+    "employee": {  
+        "name":       "swetha",   
+        "salary":      50000,   
+         
+    }  
+}  
+
+ 
+example of object having array:
+{"employees":[  
+    {"name":"Shyam", "email":"shyamjaiswal@gmail.com"},  
+    {"name":"Bob", "email":"bob32@gmail.com"},  
+    {"name":"Jai", "email":"jai87@gmail.com"}  
+]}  
+
+Json object inside an onject
+{"menu": {  
+  "id": "file",  
+  "value": "File",  
+  "popup": {  
+    "menuitem": [  
+      {"value": "New", "onclick": "CreateDoc()"},  
+      {"value": "Open", "onclick": "OpenDoc()"},  
+      {"value": "Save", "onclick": "SaveDoc()"}  
+    ]  
+  }  
+}}  
+
+Json Array:
+JSON Array
+JSON array represents ordered list of values. JSON array can store multiple values. It can store string, number, boolean or object in JSON array.
+
+In JSON array, values must be separated by comma.
+
+The [ (square bracket) represents JSON array.
+
+JSON Array example
+The [ (square bracket) represents the JSON array. A JSON array can have values and objects.
+
+ex:
+
+["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]  
+
+example of JSON array having objects.
+
+[  
+    {"name":"Ram", "email":"Ram@gmail.com"},  
+    {"name":"Bob", "email":"bob32@gmail.com"}  
+] 
+
+multidimensional array.
+
+[    
+ [ "a", "b", "c" ],   
+ [ "m", "n", "o" ],   
+ [ "x", "y", "z" ]   
+]  
+==================================================================================================================
+Differences between json and xml:
+JSON doesn't use tags.
+JSON is shorter.
+JSON is quicker to read and write.
+JSON can use arrays but XML doesnot support arrays.
+XML has to be parsed with an XML parser. JSON can be parsed by a standard JavaScript function into a ready-to-use JavaScript object.Because of this reason JSON is better than XML.
+JSON is data-oriented but XML is document-oriented.
+JSON supports only text and number data type.XML support many data types such as text, number, images, charts, graphs etc. Moreover, XML offeres options for transferring the format or structure of the data with actual data.
+--------------------------------------------------------------------
+How to send an encrypted email ?
+On your computer, go to Gmail.
+Click Compose.
+In the bottom right of the window, click Turn on confidential mode .
+Tip: If you've already turned on confidential mode for an email, go to the bottom of the email, then click Edit.
+Set an expiration date and passcode. These settings impact both the message text and any attachments. 
+If you choose "No SMS passcode," recipients using the Gmail app will be able to open it directly. Recipients who don't use Gmail will get emailed a passcode.
+If you choose "SMS passcode," recipients will get a passcode by text message. Make sure you enter the recipient's phone number, not your own.
+Click Save.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
