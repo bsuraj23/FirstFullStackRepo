@@ -1,0 +1,34 @@
+package com.package1;
+
+
+abstract class car{  
+abstract void drive();
+void display() {
+	System.out.println("in car class display method");
+}
+}  
+  
+class BMW extends car{  
+void drive(){
+	System.out.println("driving BMW");
+	
+}  
+}  
+class Corolla extends car{  
+void drive(){
+	System.out.println("driving corollo");;
+	}  
+}  
+  
+public class ExAbstract{  
+public static void main(String args[]){
+	
+car c1=new BMW();  
+car c2=new Corolla(); 
+c1.drive();
+c1.display();
+c2.drive();
+c2.display();
+ 
+}  
+}
