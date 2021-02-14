@@ -1,0 +1,110 @@
+Disaster recovery for servers
+Disaster recovery is an organization’s method of regaining access and functionality to its IT infrastructure after events like a natural disaster, cyber attack A variety of disaster recovery (DR) methods can be part of a disaster recovery plan. DR is one aspect of business continuity.
+
+Disaster recovery relies upon the replication of data and computer processing in an off-premises location not affected by the disaster. When servers go down because of a natural disaster, equipment failure or cyber attack, a business needs to recover lost data from a second location where the data is backed up. Ideally, an organization can transfer its computer processing to that remote location as well in order to continue operations. 
+
+The Heart of Server Disaster Recovery is Backup.backup process should be automated and incremental. You should have a “living” backup process that regularly scans your servers and updates with every change that gets made. This way your backups won’t become out-of-date and suffer from “configuration drift” as your actual server changes.When setting up your server, you should also look into how it can notify you of its status. Having IT personnel regularly check up on your server to make sure all of its disks are healthy and replace any that need replacing is infinitely preferable
+One should have some way to monitor the healthof each of the servers. 
+Determine what needs backup (or to be relocated), who should perform backups, and how backups will be implemented. Include a recovery point objective (RPO) that states the frequency of backups and a recovery time objective (RTO) that defines the maximum amount of downtime allowable after a disaster. These metrics create limits to guide the choice of IT strategy, processes and procedures that make up an organization’s disaster recovery plan. The amount of downtime an organization can handle and how frequently the organization backs up its data will inform the disaster recovery strategy.
+---------------------------------------------------------------------------------------------------------------------------------------
+What is an API gateway?
+API is an abbreviation for Application Programming Interface which is a collection of communication protocols and subroutines used by various programs to communicate between them.An API helps two programs or applications to communicate with each other by providing them with necessary tools and functions. It takes the request from the user and sends it to the service provider and then again sends the result generated from the service provider to the desired user.
+an API helps two programs or applications to communicate with each other by providing them with necessary tools and functions. It takes the request from the user and sends it to the service provider and then again sends the result generated from the service provider to the desired user.
+
+An API gateway is an API management tool that sits between a client and a collection of backend services.
+
+An API gateway acts as a reverse proxy to accept all application programming interface (API) calls, aggregate the various services required to fulfill them, and return the appropriate result.The API gateway intercepts all incoming requests and sends them through the API management system, which handles a variety of necessary functions.Some common API gateway functions include authentication, routing, rate limiting, billing, monitoring, analytics, policies, alerts, and security.
+===========================================================================================================================================================
+what is a load balancer ?
+Load balancing is the process of distributing network traffic across multiple servers. This ensures no single server bears too much demand. By spreading the work evenly, load balancing improves application responsiveness. It also increases availability of applications and websites for users. Modern applications cannot run without load balancers. Over time, software load balancers have added additional capabilities including security and application.
+
+As an organization meets demand for its applications, the load balancer decides which servers can handle that traffic. This maintains a good user experience.
+
+Load balancers manage the flow of information between the server and an endpoint device (PC, laptop, tablet or smartphone). The server could be on-premises, in a data center or the public cloud. The server can also be physical or virtualized. The load balancer helps servers move data efficiently, optimizes the use of application delivery resources and prevents server overloads. Load balancers conduct continuous health checks on servers to ensure they can handle requests. If necessary, the load balancer removes unhealthy servers from the pool until they are restored. Some load balancers even trigger the creation of new virtualized application servers to cope with increased demand.
+
+Traditionally, load balancers consist of a hardware appliance. Yet they are increasingly becoming software-defined. This is why load balancers are an essential part of an organization’s digital strategy.
+
+Load Balancing Algorithms:
+
+There is a variety of load balancing methods, which use different algorithms best suited for a particular situation.
+
+Least Connection Method — directs traffic to the server with the fewest active connections. Most useful when there are a large number of persistent connections in the traffic unevenly distributed between the servers.
+Least Response Time Method — directs traffic to the server with the fewest active connections and the lowest average response time.
+Round Robin Method — rotates servers by directing traffic to the first available server and then moves that server to the bottom of the queue. Most useful when servers are of equal specification and there are not many persistent connections.
+IP Hash — the IP address of the client determines which server receives the request.
+
+Load Balancing Benefits:
+
+Load balancing can do more than just act as a network traffic cop. Software load balancers provide benefits like predictive analytics that determine traffic bottlenecks before they happen. As a result, the software load balancer gives an organization actionable insights. These are key to automation and can help drive business decisions.
+
+In the seven-layer Open System Interconnection (OSI) model, network firewalls are at levels one to three (L1-Physical Wiring, L2-Data Link and L3-Network). Meanwhile, load balancing happens between layers four to seven (L4-Transport, L5-Session, L6-Presentation and L7-Application).
+
+Load balancers have different capabilities, which include:
+
+L4 — directs traffic based on data from network and transport layer protocols, such as IP address and TCP port.
+L7 — adds content switching to load balancing. This allows routing decisions based on attributes like HTTP header, uniform resource identifier, SSL session ID and HTML form data.
+GSLB — Global Server Load Balancing extends L4 and L7 capabilities to servers in different geographic locations.
+More enterprises are seeking to deploy cloud-native applications in data centers and public clouds. This is leading to significant changes in the capability of load balancers. In turn, this creates both challenges and opportunities for infrastructure and operations leaders.
+==================================================================================================================================
+What is AWS AMI?
+An Amazon Machine Image (AMI) is used to create virtual servers (Amazon Elastic Compute Cloud or EC2 instances) in the Amazon Web Services (AWS) environment. Different types of instances can be launched from a single AMI to support the hardware of the host computer used for the instance. With AMIs, it is faster and easier to set up an instance than with traditional software deployments as there is no manual set up, no configuration and no additional hardware.
+=======================================================================================================================================
+Disaster recovery for API Gateway 
+In a production environment you must ensure that API Gateway installations on all API Gateway host nodes are backed up on a regular basis. This includes hosts that run the following components:
+
+API Gateway instance
+Admin Node Manager
+Node Manager
+API Manager
+API Gateway Analytics
+You must also back up all databases and third-party systems used with the API Gateway.
+===========================================================================================
+Difference between web application server and normal application server ?
+
+A Web server exclusively handles HTTP requests, whereas an application server serves business logic to application programs through any number of protocols.
+Web Server is mostly designed to serve static content, though most Web Servers have plugins to support scripting languages like Perl, PHP, ASP, JSP etc. through which these servers can generate dynamic HTTP content.
+Most of the application servers have Web Server as integral part of them, that means App Server can do whatever Web Server is capable of. Additionally App Server have components and features to support Application level services such as Connection Pooling, Object Pooling, Transaction Support, Messaging services etc.
+Ex: Apache Tomcat HTTP Server is Web Server and Oracle WebLogic is Application Server.
+-===========================================================================================================================================================
+What is d2, g4 ,t4 instance types ?
+
+d2 instance belongs to Storage Optimize family.
+d2 instances have a higher ratio of disk to CPU and memory, which makes them a good fit for Massively Parallel Processing (MPP), MapReduce and Hadoop distributed computing, and similar applications.d is for dense.
+
+g instance type:Belongs to Accelerated Computing instance family.
+The g instance type uses Graphics Processing Units (GPUs) to accelerate graphics-intensive workloads, and also designed to accelerate machine learning inference. This could include adding metadata to an image, automated speech recognition, and language translation, as well as graphics workstations, video transcoding, and game streaming in the cloud. 
+g4 is the latest family, and g3 are available as well.
+
+Amazon EC2 T4g instances are powered by Arm-based AWS Graviton2 processors. T4g instances are the next generation low cost burstable general purpose instance type that provide a baseline level of CPU performance with the ability to burst CPU usage at any time for as long as required. They deliver up to 40% better price performance over T3 instances and are ideal for running applications with moderate CPU usage that experience temporary spikes in usage.
+T4g instances offer a balance of compute, memory, and network resources for a broad spectrum of general purpose workloads including large scale micro-services, small and medium databases, virtual desktops, and business-critical applications. Developers can also use these instances to run code repositories and build Arm-based applications natively in the cloud, eliminating the need for cross-compilation and emulation, and improving time to market.
+
+============================================================================================================================================
+what are smp, tcp, http and https ?
+HTTP stands for Hyper Text Transfer Protocol
+HTTP is the backbone of World Wide Web (WWW). It defines the format of messages through which Web Browsers (like Firefox, Chrome) and Web Servers communicate, whilst also defining how a web browser should respond to a particular web browser request.
+
+FTP is the underlying protocol that is used to, as the name suggests, transfer files over a communication network. It establishes two TCP connections: Control Connection to authenticate the user, and Data Connection to transfer the files.
+
+SMTP (Simple Mail Transfer Protocol) is what is used by Email servers all over the globe to communicate with each other.
+SMTP is an application layer protocol. The client who wants to send the mail opens a TCP connection to the SMTP server and then sends the mail across the connection. The SMTP server is always on listening mode. As soon as it listens for a TCP connection from any client, the SMTP process initiates a connection on that port (25). After successfully establishing the TCP connection the client process sends the mail instantly. 
+
+SMTP Protocol
+
+The SMTP model is of two type :
+
+End-to- end method
+Store-and- forward method
+
+TCP/IP, or Transmission Control Protocol/Internet Protocol:
+It is a suite of communication protocols used to interconnect network devices on the internet. TCP/IP can also be used as a communications protocol in a private computer network (an intranet or extranet).
+The entire IP suite is a set of rules and procedures which is commonly referred to as TCP/IP. TCP and IP are the two main protocols, though others are included in the suite.The TCP/IP protocol suite functions as an abstraction layer between internet applications and the routing/switching fabric.
+TCP/IP specifies how data is exchanged over the internet by providing end-to-end communications that identify how it should be broken into packets, addressed, transmitted, routed and received at the destination. TCP/IP requires little central management and is designed to make networks reliable with the ability to recover automatically from the failure of any device on the network.
+The two main protocols in the IP suite serve specific functions. TCP defines how applications can create channels of communication across a network. It also manages how a message is assembled into smaller packets before they are then transmitted over the internet and reassembled in the right order at the destination address.
+IP defines how to address and route each packet to make sure it reaches the right destination. Each gateway computer on the network checks this IP address to determine where to forward the message.
+========================================================================================================================================
+What are external hardware resources ? 
+external hardware components include microphones, monitors, speakers, headphones, digital cameras, touchpads, stylus pens, joysticks, scanners and memory cards. All these hardware devices are designed to either provide instructions to the software or render the results from its execution.
+
+=================================================================================================================================================
+What is IOPS ?
+IOPS stands for input/output operations per second. It's a measurement of performance for hard drives (HDDs or SSDs) and storage area networks. IOPS represents how quickly a given storage device or medium can read and write commands in every second. It is a popular performance metric used to distinguish one storage type from another. Similar to device makers, AWS associates IOPS values to the volume component backing the storage option. As IOPS values increase, performance needs and costs rise.
